@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        .home{
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(30, 189, 252)
+        }
+        .home nav{
+            
+            width: 500px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            right: 0px;
+
+
+        }
+        .nav a{
+            text-decoration: none;
+            font-size: 20px;
+            color: antiquewhite;
+            font-family: 'Open Sans', sans-serif;
+            
+        }
+        .main.name{
+            position: absolute;
+            left: 600px;
+            top: 50px;
+            transform: translate(-150px,50px);
+            width: 100%;
+            height: 300px;
+
+
+        }
+        .name h1{
+            position: absolute;
+            top: 400px;
+            left: 525px;
+            color: crimson;
+            font-size: 60px;
+            width: 500px;
+
+        }
+        .name h2{
+            position: absolute;
+            top: 480px;
+            left: 525px;
+            color: whitesmoke;
+            font-size: 30px;
+            width: 500px;
+        }
+        .down{
+            position: absolute;
+            top: 500px;
+            left:800px;
+            /* font-size: 100px;
+            color: coral; */
+            animation: bounce 1s ease infinite alternate;
+        }
+        @keyframes bounce{
+            from{
+                top: 500px;
+                left: 700px;
+            }
+            to{
+                top: 600px;
+                left: 700px;
+            }
+        }
+        .about{
+            height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgb(130,255,157),rgb(155,242,247));
+
+        }
+        .about h1{
+            position: absolute;
+            top: 830px;
+            left: 650px;
+            font-size: 50px;
+            font-family: 'borel',cursive;
+            color: rgb(9,16,16);
+            
+        }
+        .about img{
+            height: 350px;
+            width: 350px;
+            border-radius: 50%;
+            position: absolute;
+            left: 600px;
+            top: 890px;
+        }
+        .info{
+            height: 100px;
+            width: 600px;
+            position: absolute;
+            top: 1250px;
+            left: 450px;
+            text-align: center;
+        }
+        .info p{
+            color: #000;
+            font-size: large;
+            font-family: 'borel',cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="home">
+        <nav>
+            <a href="">ABOUT</a>
+            <a href="">PROJECT</a>
+            <a href="">CONTENT</a>
+        </nav>
+        <div class="name">
+            <h1>HI, I am kalai</h1>
+            <h2>I'm a python full stack developer</h2>
+        </div>
+        <div class="down">
+            <img src="c:\Users\LENOVO\Downloads\pic1.png" alt="">
+        </div>
+        </div>
+        <div class="about" id="about">
+            <h2>ABOUT ME</h2>
+            <img src="c:\Users\LENOVO\Pictures\kalai.pic.jpg" alt="">
+            <div class="info"><p>"Hello ,my name is kalaikumar.I am in an civil engineering graduate from salem.
+                During my academic journey, I developed a keen interest in technology and its application ,which led me to work on various exicting projects"
+
+            </p>
+
+            </div>
+            <div class="skill">
+                <h2>skills</h2>
+                <div class="container">
+                    <div class="wrapper">
+                    <span>CSS</span>
+                    <div class="slider">
+                        <input type="range" class="range" id="range1" max="90">
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <span>HTML</span>
+                    <div class="slider">
+                        <input type="range" class="range" id="range2" min max="90">   
+                    </div>
+                </div>
+                
+                </div>
+                </div>
+            </div>
+            
+            
+            
+
+
+            </div>
+         
+        </div>
+    </div>
+</body>
+</html>
